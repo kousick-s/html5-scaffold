@@ -12,8 +12,22 @@
       <link href="css/dashboard.css" rel="stylesheet">
     <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 <style>
+.one {
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    vertical-align: middle;
+    height: 80%;
+    width: 80%;
+   padding: 150;
+   vertical-align: middle;
 
-.screenshots{ background-color: #ccffcc; width: 100%;}
+}
+.imagepad{
+  vertical-align: middle;
+}
+.h2c{color:white;}
+.screenshots{ background-color: #1BDE4B; width: 100%; padding: 0; margin: 0;}
 </style>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -153,23 +167,27 @@
        <!-- Content Row 2 -->
     <!-- Third Division -->
    <div class="container marketing screenshots">
-
+      <center><h5> Screenshots </h5></center>
+      <center><h2 class="h2c">Check Out Our App In Action</h2></center>
       <!-- Three columns of text below the carousel -->
-      <div class="row">
-        <div class="col-lg-4">
-          <img class="img-circle" src="../html5-scaffold/images/screenshot1.png" alt="Generic placeholder image">
-          
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-circle" src="../html5-scaffold/images/screenshot2.png" alt="Generic placeholder image">
-          
-        </div><!-- /.col-lg-4 -->
-        <div class="col-lg-4">
-          <img class="img-circle" src="../html5-scaffold/images/screenshot3.png" alt="Generic placeholder image">
-         
-        </div><!-- /.col-lg-4 -->
-      </div><!-- /.row -->
+      <div class="row placeholders">
+      <div class="col-md-3" >
+      <img class="img-responsive one" src="../html5-scaffold/images/screenshot1.png" />
+      </div>
+      <div class="col-md-3" >
+      <img class="img-responsive one" src="../html5-scaffold/images/screenshot2.png" />
+      </div>
+      <div class="col-md-3" >
+      <img class="img-responsive one" src="../html5-scaffold/images/screenshot3.png" />
+      </div>
+      <div class="col-md-3" >
+      <img class="img-responsive one" src="../html5-scaffold/images/screenshot2.png" />
+      </div>
+      
+    </div>
 
           <!-- Third Division -->
+          </div>
+
   </body>
 </html>
