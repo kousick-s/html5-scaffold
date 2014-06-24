@@ -32,7 +32,7 @@
     text-align: center;
 }
 .footerclass{
-  background-color: #4A4948; 
+  background-color: #2C3E50; 
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -46,15 +46,21 @@ font-style: arial;
 
   
 }
+.galimage{
+  height: 400px;
+  width: 200px;
+}
 .screenimage{
   padding-left: 30;
 }
-.logo{height: 40%;
-  width: 40%}
+
+.logostyle{height: 50px;
+ }
   .headdiv{width: 150%}
 .h2c{color:white;}
-.layer5{background-color: #737175;  width: 100%; padding: 0; margin: 0; padding-top: 30px; padding-bottom: 30px;}
-.screenshots{ background-color: #1BDE4B; width: 100%; padding: 0; margin: 0; }
+.layer5{background-color: #32465b;  width: 100%; padding: 0; margin: 0; padding-top: 30px; padding-bottom: 30px;}
+.layer4{padding-top: 50px;}
+.screenshots{ background-color: #2CC65D; width: 100%; padding: 0; margin: 0; }
 </style>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -73,9 +79,14 @@ font-style: arial;
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <div class="headdiv">
-          <img  src="./images/logo.png" alt="Logo" />Meta Launch THINK BUILD LAUNCH
-          </div>
+         
+           <a class="brand " href="index.html"> <img class="logostyle" src="./images/logo.png"> </a><div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active">
+         
+        </li>
+                </ul>
+                  </div>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right navbar-center">
@@ -101,29 +112,56 @@ font-style: arial;
           <img src="./images/bg-1.jpg" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Example headline.</h1>
-              <p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+            <div class="row">
+              <div class="col-md-4 col-sm-4 col-xs-12 central" >
+        <img class="img-responsive  " src="./images/iphone-5.png" />
+         
+      </div>
+       <div class="col-md-8 col-sm-8 col-xs-12 row placeholders central" >
+
+       <h2>Another example headline.</h2>
+        
+
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-success" href="#" role="button">Learn more</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="item">
+          <img src="./images/bg-2.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <div class="row">
+              <div class="col-md-4 col-sm-4 col-xs-12 central" >
+        <img class="img-responsive  " src="./images/lumia-900.png" />
+         
+      </div>
+       <div class="col-md-8 col-sm-8 col-xs-12 row placeholders" >
+       <h1>Another example headline.</h1>
+              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+              <p><a class="btn btn-lg btn-success" href="#" role="button">Learn more</a></p>
+              </div>
+            </div>
             </div>
           </div>
         </div>
         <div class="item">
-          <img src="../html5-scaffold/images/bg-2.jpg" alt="Second slide">
+          <img src="./images/bg-3.jpg" alt="Third slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Another example headline.</h1>
+              <div class="row">
+              <div class="col-md-4 col-sm-4 col-xs-12" >
+        <img class="img-responsive  " src="./images/nexus-4.png" />
+         
+      </div>
+       <div class="col-md-8 col-sm-8 col-xs-12 row placeholders" >
+       <h1>Another example headline.</h1>
               <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+              <p><a class="btn btn-lg btn-success" href="#" role="button">Learn more</a></p>
+              </div>
             </div>
-          </div>
-        </div>
-        <div class="item">
-          <img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>One more for good measure.</h1>
-              <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
             </div>
           </div>
         </div>
@@ -153,43 +191,40 @@ font-style: arial;
     <div class="container">
       <!-- Example row of columns -->
       <div class="row" style="display:inline; background-color:green; width:100%">
-        <div class="col-md-4">
+        <div class="col-md-4 col-sm-6">
           <span  align="center" class="glyphicon glyphicon-send glyph" style="font-size:48px;"></span>
           <h2 align="center" class="header-color">PRoTOTYPE</h2>
           <p align="center">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
           
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 col-sm-6">
           <span align="center" class="glyphicon glyphicon-inbox glyph" style="font-size:48px;"></span>
           <h2 align="center" class="header-color">PRoTOTYPE</h2>
           <p align="center">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
          
        </div>
-        <div class="col-md-4">
+        <div class="col-md-4 col-sm-6">
           <span align="center" class="glyphicon glyphicon-facetime-video glyph" style="font-size:48px;"></span>
           <h2 align="center" class="header-color">PRoTOTYPE</h2>
           <p align="center">Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
          
         </div>
-      </div>
-      </div>
+      
      <!-- Content Row 1 -->
-     <div class="container">
-      <!-- Example row of columns -->
-      <div class="row" style="display:inline; background-color:green; width:100%">
-        <div class="col-md-4">
+    
+        <div class="col-md-4 col-sm-6">
           <span align="center" class="glyphicon glyphicon-cloud-download glyph" style="font-size:48px;"></span>
           <h2 align="center" class="header-color">PRoTOTYPE</h2>
           <p align="center">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
          
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 col-sm-6">
           <span align="center" class="glyphicon glyphicon-facetime-video glyph" style="font-size:48px;"></span>
           <h2 align="center" class="header-color">PRoTOTYPE</h2>
           <p align="center">Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
           
        </div>
-        <div class="col-md-4">
+        <div class="col-md-4 col-sm-6">
          <span align="center" class="glyphicon glyphicon-cloud-download glyph" style="font-size:48px;"></span>
          <h2 align="center" class="header-color">PRoTOTYPE</h2>
           <p align="center">Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
@@ -201,24 +236,26 @@ font-style: arial;
       
        <!-- Content Row 2 -->
     <!-- Third Division -->
-   <div class="container marketing screenshots">
-      <center><h5> Screenshots </h5></center>
-      <center><h2 class="h2c">Check Out Our App In Action</h2></center>
+    <div class="screenshots">
+   <div class="container marketing vertical-center">
+      <h4 class="text-center"> Screenshots </h4>
+      <h2 class="text-center h2c">Check Out Our App In Action</h2>
       <!-- Three columns of text below the carousel -->
       <div class="row placeholders">
-      <div class="col-md-3 screenimage" >
+      <div class="col-md-3 col-sm-3 screenimage nopadding" >
       <img class="img-responsive one" src="./images/screenshot1.png" />
       </div>
-      <div class="col-md-3 screenimage" >
+      <div class="col-md-3 col-sm-3  screenimage nopadding" >
       <img class="img-responsive one" src="./images/screenshot2.png" />
       </div>
-      <div class="col-md-3 screenimage" >
+      <div class="col-md-3 col-sm-3 screenimage nopadding" >
       <img class="img-responsive one" src="./images/screenshot3.png" />
       </div>
-      <div class="col-md-3 screenimage" >
+      <div class="col-md-3 col-sm-3 screenimage nopadding" >
       <img class="img-responsive one" src="./images/screenshot2.png" />
       </div>
       
+    </div>
     </div>
 
 
@@ -226,6 +263,7 @@ font-style: arial;
           
           </div>
           <!-- Third Division -->
+          <div class="layer4"
            <div class="container">
       
       <!-- Three columns of text below the carousel -->
@@ -235,13 +273,14 @@ font-style: arial;
       <div class="col-md-4 headalign" >
        <h4 style="color: grey;">CRAFTED BEAUTIFULLY</h4>
           <h2 style="color: #1BDE4B;">Attention To Every Last Detail</h2>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <p><a class="btn btn btn-success" href="#" role="button">View details &raquo;</a></p>
       </div>
       <div class="col-md-7" >
       <img class="img-responsive one" src="./images/iphone_white_angle1.png" />
       </div>
       
       
+    </div>
     </div>
 
 
@@ -256,8 +295,8 @@ font-style: arial;
       </div>
       <div class="col-md-6 headalign " >
        <h4 style="color: #1BDE4B;">CONTACT US</h4>
-          <h2 style="color: #1BDE4B;">Tell Us What Is On Your Mind </h2>
-          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+          <h2 style="color: #FFF;">Tell Us What Is On Your Mind </h2>
+          <p><a class="btn btn btn-success" href="#" role="button">View details &raquo;</a></p>
       </div>
       <div class="col-md-3" >
       
@@ -271,9 +310,10 @@ font-style: arial;
           
           </div>
 
+
  <div id="footer" class="footerclass">
       <div class="container">
-        <p style="color: #FFF;">&copy; Copyright 2013-@Hashedin.com</p>
+        <p style="color: #FFF;">&copy; Copyright 2013-<a target="_blank" href="http://hashedin.com/">@Hashedin.com</a></p>
       </div>
     </div>
   </body>
