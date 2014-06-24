@@ -30,16 +30,29 @@
     display: block;
     text-align: center;
 }
+.footerclass{
+  background-color: #4A4948; 
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
 }
-.imagepad{
+.splbutton{
+  color: #333;
+background-color: #1BDE4B;
+border-color: #1BDE4B;
+font-style: arial;
+
   
+}
+.screenimage{
+  padding-left: 30;
 }
 .logo{height: 40%;
   width: 40%}
   .headdiv{width: 150%}
 .h2c{color:white;}
-.layer5{background-color: #737175;  width: 100%; padding: 0; margin: 0; }
+.layer5{background-color: #737175;  width: 100%; padding: 0; margin: 0; padding-top: 30px; padding-bottom: 30px;}
 .screenshots{ background-color: #1BDE4B; width: 100%; padding: 0; margin: 0; }
 </style>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -60,7 +73,7 @@
             <span class="icon-bar"></span>
           </button>
           <div class="headdiv">
-          <img class="navbar-brand " src="./images/logo.png" alt="Logo" />Bootstrap theme
+          <img  src="./images/logo.png" alt="Logo" />Meta Launch THINK BUILD LAUNCH
           </div>
         </div>
         <div class="navbar-collapse collapse">
@@ -84,7 +97,7 @@
       </ol>
       <div class="carousel-inner">
         <div class="item active">
-          <img src="../html5-scaffold/images/bg-1.jpg" alt="First slide">
+          <img src="./images/bg-1.jpg" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>Example headline.</h1>
@@ -192,17 +205,17 @@
       <center><h2 class="h2c">Check Out Our App In Action</h2></center>
       <!-- Three columns of text below the carousel -->
       <div class="row placeholders">
-      <div class="col-md-3" >
-      <img class="img-responsive one" src="../html5-scaffold/images/screenshot1.png" />
+      <div class="col-md-3 screenimage" >
+      <img class="img-responsive one" src="./images/screenshot1.png" />
       </div>
-      <div class="col-md-3" >
-      <img class="img-responsive one" src="../html5-scaffold/images/screenshot2.png" />
+      <div class="col-md-3 screenimage" >
+      <img class="img-responsive one" src="./images/screenshot2.png" />
       </div>
-      <div class="col-md-3" >
-      <img class="img-responsive one" src="../html5-scaffold/images/screenshot3.png" />
+      <div class="col-md-3 screenimage" >
+      <img class="img-responsive one" src="./images/screenshot3.png" />
       </div>
-      <div class="col-md-3" >
-      <img class="img-responsive one" src="../html5-scaffold/images/screenshot2.png" />
+      <div class="col-md-3 screenimage" >
+      <img class="img-responsive one" src="./images/screenshot2.png" />
       </div>
       
     </div>
@@ -257,6 +270,10 @@
           
           </div>
 
-
+ <div id="footer" class="footerclass">
+      <div class="container">
+        <p style="color: #FFF;">&copy; Copyright 2013-@Hashedin.com</p>
+      </div>
+    </div>
   </body>
 </html>
